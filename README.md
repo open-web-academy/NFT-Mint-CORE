@@ -224,6 +224,29 @@ contract NFTCollection is ERC721URIStorage, Ownable {
     }
 }
 ```
+### Explanation
+
+The NFTCollection smart contract is designed to manage a collection of non-fungible tokens (NFTs) on the CORE network. It utilizes OpenZeppelin libraries to facilitate standard ERC721 functionalities and token URI management.
+
+1. **Imports**:
+   - `Base64`: For encoding the JSON data of the token URI in base64.
+   - `ERC721URIStorage`: An ERC721 extension that allows storing a URI for each token.
+   - `Ownable`: Provides access control for functions that only the owner can execute.
+   - `Counters`: Used to generate unique IDs for tokens.
+  
+2. **Data Structures**:
+   - `TokenURI`: Stores the base64-encoded URI and the associated image of the token.
+   - `NFTItem`: Contains details about each NFT, including name, description, and image URI.
+  
+3. **State Variables**:
+   - `_tokenIds`: Counter to manage token numbering.
+   - `_tokenDetails`: Mapping that associates a token ID with its corresponding details.
+
+4. **Main Functions**:
+   - `mintNFT(string memory name, string memory description, string memory imageURI)`:  Allows the contract owner to mint a new NFT with a name, description, and image URI. Returns the ID of the newly minted token.
+   - `getTokenDetails(uint256 tokenId)`: Allows querying the details of a specific token given its ID.
+   - `getNFTsByPage(uint256 page, uint256 pageSize)`: Returns a paginated list of NFTs. The page and pageSize parameters allow specifying which page of results to retrieve and the number of items per page, respectively.
+
 
 ## Compiling Smart Contract
 
