@@ -1,9 +1,9 @@
 # NFT Collection dApp on Core
-In this tutorial, you will learn how to create a dApp for a collection of NFTs on the CORE network. 
+In this tutorial, you will learn how to create a dApp for minting NFTs on the CORE network. 
 
 ## What can you do in this tutorial?
 
-* Mint NFT: Learn how to mint new NFTs in the collection. This includes creating unique tokens, assigning metadata, and interacting with smart contracts to register NFTs on the CORE blockchain.
+* Mint NFT: Learn how to mint new NFTs. This includes creating unique tokens, assigning metadata, and interacting with smart contracts to register NFTs on the CORE blockchain.
 * Get NFTs: Find out how to get and view minted NFTs. Users will be able to view the details of their NFTs, including metadata and unique properties of each token, directly from the dApp.
 
 ## Software Prerequisites
@@ -15,8 +15,11 @@ In this tutorial, you will learn how to create a dApp for a collection of NFTs o
 
 ## Setting up the development environment
 
-1. Install dependencies in /contract.
+1. Download this repository
 
+
+2. Install dependencies in the route /contract.
+   
 ```bash
 npm install
 ```
@@ -221,7 +224,7 @@ contract NFTCollection is ERC721URIStorage, Ownable {
 
 ## Compiling Smart Contract
 
-1. To compile the `NFTCollection` smart contract defined in the `NFTCollection.sol`, from the /contract directory run the following command
+1. To compile the `NFTCollection` smart contract defined in the `NFTCollection.sol`, from the /contract directory run the following command. (Every time a change is made to the contract code we must recompile it).
 
 ```bash
 npx hardhat compile
