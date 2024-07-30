@@ -99,7 +99,7 @@ export default function Get() {
               {numberNFTs > 0 ? (
                 <div>
                   <br />
-                  <div>
+                  <div style={{display:"flex", justifyContent:"center"}}>
                     <img src={dataNFT && dataNFT.imageURI} alt="NFT" />
                   </div>
                   <br />
