@@ -1,7 +1,10 @@
 # NFT Collection dApp on Core
-In this tutorial, you will learn how to create a dApp for minting NFTs on the CORE network. 
+
+Decentralized applications (dApps) use a blockchain or on-chain smart contracts to store and reference data, rather than relying on traditional centralized databases. A common, simple dApp structure generally consists of a React.js or Vue.js front-end using Web3.js or Ethers.js to interact with smart contracts deployed to an EVM-compatible blockchain.
 
 ## What can you do in this tutorial?
+
+In this tutorial, you will learn how to create a dApp for minting NFTs on the CORE network. 
 
 * Mint NFT: Learn how to mint new NFTs. This includes creating unique tokens, assigning metadata, and interacting with smart contracts to register NFTs on the CORE blockchain.
 * Get NFTs: Find out how to get and view minted NFTs. Users will be able to view the details of their NFTs, including metadata and unique properties of each token, directly from the dApp.
