@@ -285,8 +285,14 @@ npm run dev
 
 ## Mint NFT
 
-1. 
+ 1. To mint a new NFT, we will only have to enter 3 fields, the name, the description and the url of the image.
+ 2. Once this is done, click on the “Mint” button and accept the transaction in metamask.
+
+<img src="https://raw.githubusercontent.com/open-web-academy/NFT-Tutorial-CORE/master/src/public/mint.gif" width="50%">
 
 ## Get NFT's
 
-1. 
+1. To get the NFT's minted only we will have to go to the option of “Get NFT's”.
+
+<img src="https://raw.githubusercontent.com/open-web-academy/NFT-Tutorial-CORE/master/src/public/get.gif" width="50%">
+
