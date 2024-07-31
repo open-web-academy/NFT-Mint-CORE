@@ -6,8 +6,8 @@ Decentralized applications (dApps) use a blockchain or on-chain smart contracts 
 
 In this tutorial, you will learn how to create a dApp for minting NFTs on the CORE network. 
 
-* Mint NFT: Learn how to mint new NFTs. This includes creating unique tokens, assigning metadata, and interacting with smart contracts to register NFTs on the CORE blockchain.
-* Get NFTs: Find out how to get and view minted NFTs. Users will be able to view the details of their NFTs, including metadata and unique properties of each token, directly from the dApp.
+* `Mint NFT`: Learn how to mint new NFTs. This includes creating unique tokens, assigning metadata, and interacting with smart contracts to register NFTs on the CORE blockchain.
+* `Get NFTs`: Find out how to get and view minted NFTs. Users will be able to view the details of their NFTs, including metadata and unique properties of each token, directly from the dApp.
 
 ## Software Prerequisites
 * [Git](https://git-scm.com/) v2.44.0
