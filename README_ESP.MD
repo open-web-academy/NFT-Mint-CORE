@@ -35,7 +35,7 @@ npm install
 {"PrivateKey":"ef1150b212a53b053a3dee265cb26cd010065b9340b4ac6cf5d895a7cf39c923"}
 ```
 
-:::caution
+:::Advertencia: 
 No olvides añadir este archivo al archivo .gitignore en la carpeta raíz de tu proyecto para evitar que tu clave privada/frases secretas se suban accidentalmente a un repositorio público. ¡Asegúrate de mantener este archivo en un lugar absolutamente seguro!
 :::
 
